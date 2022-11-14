@@ -16,5 +16,13 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Brush brush = Brushes.Lime;
+            Graphics gr = this.CreateGraphics();
+            gr.FillPie(brush, 20, 20, 200, 200, 200, 200);
+            gr.Dispose();
+        }
     }
 }
