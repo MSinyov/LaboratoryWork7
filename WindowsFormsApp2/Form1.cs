@@ -22,6 +22,9 @@ namespace WindowsFormsApp2
             Brush brush = Brushes.Lime;
             Graphics gr = this.CreateGraphics();
             gr.FillPie(brush, 20, 20, 200, 200, 200, 200);
+            brush = Brushes.Fuchsia;
+            Graphics gr = this.CreateGraphics();
+            gr.FillPie(brush, 40, 40, 80, 80, 80, 80);
             gr.Dispose();
         }
     }
